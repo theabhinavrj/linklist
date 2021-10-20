@@ -1,4 +1,3 @@
-<script type="text/javascript">
 $(document).ready(function(){
             //Let's first setup the redirect
         function redirect(){
@@ -24,4 +23,3 @@ $(document).ready(function(){
         //excute the function at the intervals of 5 seconds.
         setInterval(function () {check()}, 5000);
         });
-</script>
