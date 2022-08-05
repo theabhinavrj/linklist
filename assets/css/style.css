@@ -35,6 +35,32 @@ div.content {
 
 
 
+.grid-container {
+    display: grid;
+}
+
+.grid-container--fill {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.grid-container--fit {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+
+.grid-element {
+  padding: 5px;
+}
+
+
+hr {
+  margin: 80px;
+}
+
+
+
+
+
 
 #userPhoto {
     width: 100px;
@@ -148,6 +174,20 @@ div.content {
     text-decoration: none;
 }
 
+
+#titlemain {
+    color: var(--color-main);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
 
 #links {
     max-width: 675px;
@@ -363,4 +403,13 @@ div.content {
     margin-top: 50px;
     text-align: center;
     text-decoration: none;
+}
+
+
+#affiliate {
+    font-family: var(--font);
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+
 }
