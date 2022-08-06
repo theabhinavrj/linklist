@@ -11,7 +11,7 @@
 body {
     background: linear-gradient(96.2deg, rgb(255, 230, 112) 10.4%, rgb(255, 100, 100) 43.8%, rgb(0, 93, 219) 105.8%);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
@@ -31,7 +31,6 @@ div.content {
     margin: auto;
     max-width:500px;
     padding: 10px;
-    
  }
 
 
@@ -113,14 +112,7 @@ hr {
 
 .link1 {
     display: block;
-
-    background: rgba(255, 255, 255, 0.11);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2.8px);
-    -webkit-backdrop-filter: blur(2.8px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-
+    background-color: var(--color-main);
     color: var(--color-text);
     font-family: var(--font);
     text-align: center;
@@ -132,18 +124,12 @@ hr {
     font-weight: bold;
     max-width:250px;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border: solid var(--accentColor) 2px;
 }
 
 .link2 {
     display: block;
-    
-    background: rgba(255, 255, 255, 0.11);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2.8px);
-    -webkit-backdrop-filter: blur(2.8px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-
+    background-color: var(--color-main);
     color: var(--color-text);
     font-family: var(--font);
     text-align: center;
@@ -155,16 +141,17 @@ hr {
     font-weight: bold;
     max-width:250px;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border: solid var(--accentColor) 2px;
 }
 
 .link1:hover {
-    background-color: rgba(0, 0, 0, 0.138);
+    background-color: rgba(0, 0, 0, 0.1 );
     color: var(--color-main);
     border: solid var(--color-main) 2px;
 }
 
 .link2:hover {
-    background-color: rgba(0, 0, 0, 0.138);
+    background-color: rgba(0, 0, 0, 0.1 );
     color: var(--color-main);
     border: solid var(--color-main) 2px;
 }
@@ -207,14 +194,7 @@ hr {
 
 .link {
     display: block;
-
-    background: rgba(255, 255, 255, 0.11);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2.8px);
-    -webkit-backdrop-filter: blur(2.8px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-
+    background-color: var(--color-main);
     color: var(--color-text);
     font-family: var(--font);
     text-align: center;
@@ -224,10 +204,11 @@ hr {
     font-size: 1rem;
     font-weight: bold;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border: solid var(--accentColor) 2px;
 }
 
 .link:hover {
-    background-color: rgba(0, 0, 0, 0.138);
+    background-color: rgba(0, 0, 0, 0.1 );
     color: var(--color-main);
     border: solid var(--color-main) 2px;
 }
@@ -235,15 +216,7 @@ hr {
 
 .linklist {
     display: block;
-
-    /* From https://css.glass */
-background: rgba(255, 255, 255, 0.21);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(3.5px);
--webkit-backdrop-filter: blur(3.5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
-
+    background-color: var(--color-main);
     color: var(--color-text);
     font-family: var(--font);
     text-align: left;
@@ -251,7 +224,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 17px;
     text-decoration: none;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
-
+    border: solid var(--accentColor) 2px;
 }
 
 .linkss {
@@ -260,7 +233,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .linklist:hover {
-    background-color: rgba(0, 0, 0, 0.138);
+    background-color: rgba(0, 0, 0, 0.1 );
     color: var(--color-main);
     border: solid var(--color-main) 2px;
 }
