@@ -31,12 +31,7 @@ div.content {
     margin: auto;
     max-width:500px;
     padding: 10px;
-    background: rgba(255, 255, 255, 0.36);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.6px);
-    -webkit-backdrop-filter: blur(4.6px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    
  }
 
 
@@ -241,12 +236,13 @@ hr {
 .linklist {
     display: block;
 
-    background: rgba(255, 255, 255, 0.11);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(2.8px);
-    -webkit-backdrop-filter: blur(2.8px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.21);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.5px);
+-webkit-backdrop-filter: blur(3.5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
 
     color: var(--color-text);
     font-family: var(--font);
@@ -255,7 +251,7 @@ hr {
     padding: 17px;
     text-decoration: none;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
-    border: solid var(--accentColor) 2px;
+
 }
 
 .linkss {
