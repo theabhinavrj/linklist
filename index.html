@@ -11,6 +11,8 @@
     <link rel="icon" href="assets/imagens/favicon.png" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/b5dd96234f.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/vanilla-tilt.min.js"></script>
+
 </head>
 
 <body>
@@ -199,7 +201,15 @@
         }, false);
     </script>
 
+    <script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".linklist, .link1, .grid-element, .link"), {
+		max: 25,
+		speed: 400
+	});
 
+        //It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".linklist, .link1, .grid-element, .link"));
+    </script>
 
 </div>
 </body>

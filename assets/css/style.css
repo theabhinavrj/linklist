@@ -31,6 +31,12 @@ div.content {
     margin: auto;
     max-width:500px;
     padding: 10px;
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.6px);
+    -webkit-backdrop-filter: blur(4.6px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
  }
 
 
@@ -112,7 +118,14 @@ hr {
 
 .link1 {
     display: block;
-    background-color: var(--color-main);
+
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
     color: var(--color-text);
     font-family: var(--font);
     text-align: center;
@@ -124,12 +137,18 @@ hr {
     font-weight: bold;
     max-width:250px;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
-    border: solid var(--accentColor) 2px;
 }
 
 .link2 {
     display: block;
-    background-color: var(--color-main);
+    
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
     color: var(--color-text);
     font-family: var(--font);
     text-align: center;
@@ -141,17 +160,16 @@ hr {
     font-weight: bold;
     max-width:250px;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
-    border: solid var(--accentColor) 2px;
 }
 
 .link1:hover {
-    background-color: rgba(0, 0, 0, 0.1 );
+    background-color: rgba(0, 0, 0, 0.138);
     color: var(--color-main);
     border: solid var(--color-main) 2px;
 }
 
 .link2:hover {
-    background-color: rgba(0, 0, 0, 0.1 );
+    background-color: rgba(0, 0, 0, 0.138);
     color: var(--color-main);
     border: solid var(--color-main) 2px;
 }
@@ -194,7 +212,14 @@ hr {
 
 .link {
     display: block;
-    background-color: var(--color-main);
+
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
     color: var(--color-text);
     font-family: var(--font);
     text-align: center;
@@ -204,11 +229,10 @@ hr {
     font-size: 1rem;
     font-weight: bold;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
-    border: solid var(--accentColor) 2px;
 }
 
 .link:hover {
-    background-color: rgba(0, 0, 0, 0.1 );
+    background-color: rgba(0, 0, 0, 0.138);
     color: var(--color-main);
     border: solid var(--color-main) 2px;
 }
@@ -216,7 +240,14 @@ hr {
 
 .linklist {
     display: block;
-    background-color: var(--color-main);
+
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
     color: var(--color-text);
     font-family: var(--font);
     text-align: left;
@@ -233,7 +264,7 @@ hr {
 }
 
 .linklist:hover {
-    background-color: rgba(0, 0, 0, 0.1 );
+    background-color: rgba(0, 0, 0, 0.138);
     color: var(--color-main);
     border: solid var(--color-main) 2px;
 }
