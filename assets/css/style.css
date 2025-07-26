@@ -34,12 +34,9 @@
             z-index: 10;
             text-align: center;
             max-width: 600px;
-            padding: 0.5rem;
+            padding: 2rem;
             margin: 0 auto;
             }
-
-            
-
 
         h1 {
             font-size: 3.5rem;
@@ -251,6 +248,7 @@ div.content {
     max-width:500px;
     padding: 10px;
  }
+
 
 
 
@@ -493,10 +491,34 @@ hr {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 per row */
-  gap: 7px; /* space between squares */
-  padding: 2px;
+  gap: 15px;
+  padding: 10px;
 }
+
+/* Desktop & Tablet: 3 columns */
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Mobile: 2 columns */
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-element .title {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+
+  .grid-element img {
+    max-height: 70%;
+    max-width: 80%;
+  }
+}
+
 
 .grid-element {
   background-color: #ffffff;
@@ -507,7 +529,7 @@ hr {
   flex-direction: column;
   justify-content: space-between;  /* key: space between image and text */
   align-items: center;
-  padding: 8px;
+  padding: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
@@ -540,7 +562,7 @@ hr {
 .grid-element .title {
   background-color: #000;
   color: #fff;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 600;
   text-align: center;
   padding: 3px 10px;
