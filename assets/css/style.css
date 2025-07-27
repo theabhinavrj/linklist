@@ -569,7 +569,7 @@ hr {
   border-radius: 10px;
   width: 100%;
   margin: 0 auto -5px; 
-  word-spacing: -0.5px;
+  letter-spacing: -0.5px;
   
   white-space: nowrap;       /* ⛔ don't wrap to second line */
   overflow: hidden;          /* hide overflow text */
